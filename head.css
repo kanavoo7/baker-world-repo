@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Archivo+Narrow:400,400i,600,600i,700,700i&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Anton|Archivo+Narrow:400,400i,600,600i,700,700i|Oswald:200,300,400,500,600,700&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,400,400i,500,500i');
+
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+          
+          background-color: black;
+         
+         padding: 8px,0px,0px,40px;
+         height: 40px;
+}
+header h1{
+	font-family: 'Archivo Narrow', sans-serif; 
+	color: white;
+	display: inline;
+	margin:0px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	float: left;
+}
+
+
+
+nav ul {
+       list-style: none;
+       display: inline;      
+}
+nav ul li {
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+	padding-top: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	
+}
+.homered{
+	background-color: red;
+	
+	padding-top:10px;
+	padding-bottom:6px;
+	padding-right:10px;
+	padding-left:10px;
+}
+.border
+{
+	height: 3px;
+	background-color: red;
+
+}
+.aboutred:hover{
+	background-color: red;
+	padding-top:10px;
+	padding-bottom:6px;
+	padding-right:10px;
+	padding-left:10px;
+}
+.conred:hover{
+	background-color: red;
+	padding-top:10px;
+	padding-bottom:6px;
+	padding-right:10px;
+	padding-left:10px;
+}
+.fwimg{
+	background-image:url(images/blue.jpg);
+	height: 100%;
+	width: 1000px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+
+}
+#subhead{
+	margin: 0px;
+	padding:0px;
+	color: yellow;
+	padding-top:10%;
+	padding-right: 0%;
+	padding-bottom: 0%;
+	padding-left: 55%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	display: inline-block;
+}
+#headquote{
+	margin-top: 0.5%;
+	margin-bottom: 0%;
+	margin-right: 0%;
+	padding-left: 67%;
+	font-family: 'Raleway',sans-serif;
+	font-size: 18px;
+	color: yellow;
+}
+#bestquote{
+	font-size: 60px; 
+	color:white;
+	font-family: 'Oswald',sans-serif;
+	margin-left: 67%; 
+	padding-left: 0.2%;
+	padding-right: 0.2%;
+	margin-top: 0.2%;
+	background-color: rgba(0,0,0,0.4);
+	display: inline-block;
+}
+
+					
+.cus_login{
+    background-color: rgba(0,0,0,0.5);
+	height: 200px;
+	width: 300px;
+	margin-top: 10%;
+	padding-top: 1.5%;
+	margin-left: 55%;
+	padding-left: 2%;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    color: yellow;
+    display: inline-block;
+}
+ label {
+	
+	
+}
+.log_but{
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 100px;
+	height: 30px;
+	background-color: #673AB7;
+	padding-left: 0px;
+	font-family: 'Raleway',sans-serif;
+	color: #76FF03;
+}
+	
+	.input_tag{
+		
+		margin-left: 20px;
+          
+	}
+	#register_1{
+		background-color: rgba(0,0,0,0.5);
+    height: 400px;
+	width: 600px;
+	margin-top: 7%;
+	padding-top: 10%;
+	padding-left: 2%;
+	margin-left: 20%;
+    font-size: 20px;
+    color: yellow;
+    font-family: 'Raleway',sans-serif;               
+    display: inline-block;
+	}
+	 #register_1 select{
+
+		width: 80px;
+		height: 25px;
+		float: right;
+		margin-right: 20px;
+	}
+	.reg{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	
+	}
+	
+	#register_1 .input_tag{
+		float: right;
+		margin-right:20px; 
+	}
+    .wlcm_mess
+    {
+    	height: 30px;
+    	background-color: #69F0AE;
+    	margin-top: 0%;
+    	margin-bottom: 0%;
+    	padding-top: 0%;
+    	padding-bottom: 0%;
+    	background-size: cover;
+    }
+    .wlcm_mess h2{
+    	margin: 0px;
+    	display: inline;
+    	margin-left: 33%;
+    	font-family: 'Oswald',sans-serif;
+    }
+  #container ul li{
+
+  	list-style: none;
+  	background-color: #33691E;
+  	border: 1px solid White;
+  	display: block;
+  	height: 50px;
+  	width: 100px;
+  	text-align: center;
+  	line-height: 50px;
+  	cursor: pointer;
+
+
+  }
+  #container ul ul li{
+       
+        display: none;
+  }
+    #container ul{
+    	margin: 0px;
+    	padding: 0px;
+    }
+    #container
+    {
+    	margin-left: 15px;
+    	padding-top: 20px;
+    }
+   #container ul li:hover > ul li {
+         display: block;
+   }
+   #container ul li:hover{
+   	background-color: red;
+   }
+   .content{
+   	height:600px;
+   	width: 600px;
+   	border: 1px solid grey;
+   	margin-left: 25%;
+   	display: none;
+
+   }
+   .but{
+   	font-size: 20px;
+   	font-family: 'Oswald',sans-serif;
+   	border-radius: 20.5px;
+
+padding: 0px;
+margin-left: 40%;
+width: 200px;
+height: 40px;
+text-align: center;
+background-color: #00B0FF;
+color: black;
+
+
+   }
+   .content_2{
+   	height: 600px;
+   	width: 600px;
+   	border: 1px solid grey;
+   	margin-left: 25px;
+   	display: none;
+
+   }
+
+ frameset{
+ 	border: 1px solid black;
+ }
+ #login_form1 {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container_log {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}

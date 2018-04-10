@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<link rel="stylesheet" type="text/css" href="side_menu.css">
+ <script type="text/javascript" src="content.js"></script>
+ 	<title></title>
+ </head>
+ <body>
+ 	
+<div class="tab">
+  <button class="tablinks" onclick="openDiv(event, 'products')">products</button>
+  <button class="tablinks" onclick="openDiv(event, 'profile_view')">profile view</button>
+  <button class="tablinks" onclick="openDiv(event, 'review_orders')">Review Orders</button>
+  <button class="tablinks" onclick="openDiv(event, 'change_details')">Change Details</button>
+  <a href="index.html"><button>Logout</button></a>
+
+</div>
+
+
+<div id="products" class="tabcontent">
+  <h1>hey this is products</h1>
+
+</div>
+  <div id="profile_view" class="tabcontent">
+
+<h3>Customer ID:</h3><label id="cust_id" class="pv_content"></label><br>
+<h3>Name:</h3><label id="cust_name" class="pv_content"></label><br>
+<h3>Gender:</h3><label id="cust_gender" class="pv_content"></label><br>
+<h3>address:</h3><label id="cust_address" class="pv_content"></label><br>
+<h3>contact no:</h3><label id="cust_mobile" class="pv_content"></label><br>
+<h3>Country:</h3><label id="cust_country" class="pv_content"></label><br>
+ 
+</div>
+<div id="review_orders" class="tabcontent">
+  
+<h3>Previous Orders :</h3><br>
+<table style="width: 100%;">
+  <tr>
+    <th>Product ID</th>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+
+</table>
+</div>
+
+<div id="change_details" class="tabcontent">
+  <h3>Username:</h3><label id="cust_usrnm"></label><br>
+  <h3> current Password:</h3><label id="cust_current_pass"></label><br>
+  <h3>New Password:</h3><input type="Password" name="cust_new_pass"><br>
+<button id="chnge_pass">Save changes</button>
+
+
+</div>
+ </body>
+ </html>
+
+
+
+

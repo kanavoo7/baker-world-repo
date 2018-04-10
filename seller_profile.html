@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<link rel="stylesheet" type="text/css" href="side_menu.css">
+ 	<script type="text/javascript" src="content.js"></script>
+ 	<title></title>
+ </head>
+ <body>
+<div class="tab">
+  <button class="tablinks" onclick="openDiv(event, 'Main')">Main</button>
+  <button class="tablinks" onclick="openDiv(event, 'profile_view_s')">profile view</button>
+  <button class="tablinks" onclick="openDiv(event, 'add_items')">Add Items</button>
+  <button class="tablinks" onclick="openDiv(event, 'remove_items')">Remove Items</button>
+   <button class="tablinks" onclick="openDiv(event, 'change_details_s')">Change Details</button>
+  <a href="index.html"><button>Logout</button></a>
+
+</div>
+
+
+  <div id="Main" class="tabcontent">
+  <h1>hey this is products</h1>
+
+</div>
+  <div id="profile_view_s" class="tabcontent">
+
+<h3>Seller ID:</h3><label id="seller_id" class="pv_content"></label><br>
+<h3>Name:</h3><label id="seller_name" class="pv_content"></label><br>
+<h3>Gender:</h3><label id="seller_gender" class="pv_content"></label><br>
+<h3>address:</h3><label id="seller_address" class="pv_content"></label><br>
+<h3>contact no:</h3><label id="seller_mobile" class="pv_content"></label><br>
+<h3>Country:</h3><label id="seller_country" class="pv_content"></label><br>
+ 
+</div>
+<div id="add_items" class="tabcontent">
+  
+<h5>Item_id:</h5> <label id="item_id" class="pv_content"></label><br>
+<h5>Name of Item:</h5> <label id="item_Name" class="pv_content"></label><br>
+<h5>Price:</h5> <label id="item_price" class="pv_content"></label><br>
+<button id="add_button" class="pv_content">Add Item</button>
+</div>
+
+<div id="remove_items" class="tabcontent">
+  <h5>Item_id:</h5> <label id="item_id" class="pv_content"></label><br>
+<h5>Name of Item:</h5> <label id="item_Name" class="pv_content"></label><br>
+<h5>Price:</h5> <label id="item_price" class="pv_content"></label><br>
+<button id="add_button" class="pv_content">Remove Item</button>
+
+</div>
+<div id="change_details_s" class="tabcontent">
+	<h3>Username:</h3><label id="seller_usrnm" class="pv_content"></label><br>
+  <h3> current Password:</h3><label id="seller_current_pass"></label><br>
+  <h3>New Password:</h3><input type="Password" name="seller_new_pass"><br>
+<button id="chnge_pass_seller" class="pv_content">Save changes</button>
+
+
+</div>
+ </body>
+ </html>
